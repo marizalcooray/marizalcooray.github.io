@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mariza Cooray</title>
+<meta name="description" content="Mariza Cooray. Economist. Pacific Island economies, spatial economics, international trade.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e2e2e2;
+    --link: #0b4f8a;
+    --accent: #f4f1ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141414;
+      --fg: #ececec;
+      --muted: #a8a8a8;
+      --rule: #333333;
+      --link: #7db3e0;
+      --accent: #1e1e1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+
+  header { display: flex; gap: 28px; align-items: flex-start; margin-bottom: 40px; }
+  header img {
+    width: 150px; height: 150px; object-fit: cover; border-radius: 4px;
+    flex-shrink: 0; background: var(--accent);
+  }
+  header h1 { margin: 0 0 6px; font-size: 32px; font-weight: normal; letter-spacing: 0.01em; }
+  header .role { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+  nav a { margin-right: 18px; font-size: 15px; }
+
+  h2 {
+    font-size: 15px; font-weight: normal; text-transform: uppercase;
+    letter-spacing: 0.12em; color: var(--muted);
+    border-bottom: 1px solid var(--rule); padding-bottom: 6px;
+    margin: 40px 0 16px;
+  }
+  p { margin: 0 0 14px; }
+
+  .paper { margin-bottom: 22px; }
+  .paper .title { font-weight: bold; }
+  .paper .meta { color: var(--muted); font-size: 15px; }
+  .paper .abstract { font-size: 15.5px; margin-top: 4px; }
+
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { margin-bottom: 10px; }
+
+  footer { margin-top: 60px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); padding-top: 16px; }
+
+  @media (max-width: 560px) {
+    header { flex-direction: column; gap: 16px; }
+    header img { width: 120px; height: 120px; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="photo.jpg" alt="Mariza Cooray" onerror="this.style.display='none'">
+    <div>
+      <h1>Mariza Cooray</h1>
+      <p class="role">Economist · M.A. International and Development Economics, Yale University (2027)</p>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#policy">Policy writing</a>
+        <a href="Cooray_CV.pdf">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <p>I am an economist working on small open economies in the Pacific. I am currently a Senior Economist at the Asian Development Bank, where I lead GDP nowcasting for Tonga, Fiji and Samoa, and a graduate student in Yale's International and Development Economics program.</p>
+    <p>My research interests are spatial economics, international trade and economic inequality. I work with dynamic factor models, Bayesian VARs, bridge equations and spatial machine learning, in Python, Stata and R.</p>
+    <p>Before ADB I was Senior Macroeconomic Adviser to the Papua New Guinea Treasury, a Research Fellow at the Lowy Institute, and an adviser to finance ministries in the Solomon Islands and the Cook Islands. I hold an M.Sc. from the London School of Economics, a Postgraduate Certificate in Mathematics from the Australian National University, and a B.A. in Economics from Wilson College.</p>
+  </section>
+
+  <h2 id="research">Working papers</h2>
+
+  <div class="paper">
+    <div class="title"><a href="https://arxiv.org/abs/2503.13308">Tracking the Hidden Forces Behind Laos' 2022 Exchange Rate Crisis and Balance of Payments Instability</a></div>
+    <div class="meta">with Rolando Gonzales Martinez · arXiv:2503.13308 · March 2025</div>
+    <div class="abstract">Uses a dynamic factor model to identify the latent drivers of the kip's depreciation and Laos' balance-of-payments instability.</div>
+  </div>
+
+  <div class="paper">
+    <div class="title"><a href="https://arxiv.org/abs/2503.04300">Enhancing Poverty Targeting with Spatial Machine Learning: An Application to Indonesia</a></div>
+    <div class="meta">with Rolando Gonzales Martinez · arXiv:2503.04300 · March 2025</div>
+    <div class="abstract">Adds spatial contiguity to proxy means testing using Indonesian household data (2016–21). Cuts exclusion errors from 28 to 20 per cent relative to standard machine learning models.</div>
+  </div>
+
+  <h2 id="policy">Policy writing</h2>
+  <ul class="plain">
+    <li>Barney, K., R. Rajah and M. Cooray (2025). <em>Trapped in Debt: China's Role in Laos' Economic Crisis</em>. Lowy Institute Analysis.</li>
+    <li>Dienier, F. and M. Cooray (2017). <em>Between the Lines: An Analysis of Sub-national Expenditure in Papua New Guinea</em>. National Economic and Fiscal Commission, Port Moresby.</li>
+    <li>Cooray, M. (2016). <em>Game Changer: Sub-national Expenditure in Papua New Guinea</em>. National Economic and Fiscal Commission, Port Moresby.</li>
+    <li>Singh, R., D. Glandon and M. Cooray (2014). Perceptions and Applications of Monitoring and Evaluation in the Fiji Ministry of Health: 2009–2014. <em>Fiji Journal of Public Health</em>, 3(1): 49–53.</li>
+    <li>Commentary on sovereign debt in Sri Lanka and Laos for the Lowy Institute's <em>The Interpreter</em> (2023).</li>
+  </ul>
+
+  <h2 id="cv">Curriculum vitae</h2>
+  <p><a href="Cooray_CV.pdf">Download CV (PDF)</a></p>
+
+  <h2 id="contact">Contact</h2>
+  <p><a href="mailto:mariza.cooray@yale.edu">mariza.cooray@yale.edu</a></p>
+
+  <footer>Last updated September 2026.</footer>
+</div>
+</body>
+</html>
